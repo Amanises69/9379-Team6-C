@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -50,4 +49,25 @@ int main() {
         }
     }
     return 0;
+}
+// Menu
+void menu() {
+    printf("\n====== Inventory Manager ======");
+    printf("\n1. Add Item");
+    printf("\n2. View Items");
+    printf("\n3. Update Item");
+    printf("\n4. Delete Item");
+    printf("\n5. Search Item by Name");
+    printf("\n6. Sort Items");
+    printf("\n7. Calculate Total Inventory Value");
+    printf("\n8. Save and Exit");
+    printf("\n================================");
+}
+
+// Add a new item
+void addItem() {
+    if (itemCount >= MAX_ITEMS) {
+        printf("Inventory is full! Cannot add more items.\n");
+        return;
+    }
 }
