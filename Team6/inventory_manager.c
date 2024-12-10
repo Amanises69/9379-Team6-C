@@ -247,5 +247,8 @@ void calculateTotalValue() {
         totalValue += inventory[i].quantity * inventory[i].price;
     }
 
+
+
     printf("\nTotal Inventory Value: $%.2f\n", totalValue);
 }
+//test pull request//
