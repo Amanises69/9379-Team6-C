@@ -1,0 +1,14 @@
+Inventory loaded from file.
+
+====== Inventory Manager ======
+1. Add Item
+2. View Items
+3. Update Item
+4. Delete Item
+5. Search Item by Name
+6. Sort Items
+7. Calculate Total Inventory Value
+8. Save and Exit
+================================
+Enter your choice: Item added successfully!
+Inventory saved to file. Exiting...
